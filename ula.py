@@ -1,7 +1,8 @@
-def limitar_8bits(self, valor):
+class ULA:
+    def limitar_8bits(self, valor):
         return valor & 0xFF
 #garantia do limite de 8 bits
-def ula(self, operacao, a, b):
+    def ula(self, operacao, a, b):
         if operacao == "ADD":
             resultado = a + b
         elif operacao == "SUB":
