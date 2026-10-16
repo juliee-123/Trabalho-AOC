@@ -27,7 +27,7 @@ class CPU:
     def executar_instrucao(self, instrucao):
 # Permite instruções como:
 # LOAD R0, 5
-        partes = instrucao.replace(",", "").split()
+        partes = instrucao.replace(",", " ").split()
         operacao = partes[0]
 # ------------------------------------------------
 # LOAD
@@ -160,7 +160,6 @@ class CPU:
     def executar(self):
         while not self.halted:
             self.ciclo()
-            print("A CPU PAROU COM AS INSTRUÇÔES")
 # --------------------------------------------------
 # MOSTRAR ESTADO
 # --------------------------------------------------
