@@ -48,6 +48,19 @@ def main():
                 b=int(input("Digite o segundo número: "))
                 print("Digite a operação que deseja testar:  [1]ADD, [2]SUB, [3]AND, [4]XOR, [5]OR")
                 op=input("Sua escolha: ")
+                if op=="1":
+                    op="ADD"
+                elif op=="2":
+                    op="SUB"
+                elif op=="3":
+                    op="AND"
+                elif op=="4":
+                    op="XOR"
+                elif op=="5":
+                    op="OR" 
+                else:
+                    print("Operação inválida, tente novamente")
+                    continue
                 instrucoes=programas.gerar_prog_ula(a, b, op)
                 exe_instrucoes(instrucoes, f"Operação personalizada: {a} {op} {b}")
             except ValueError:

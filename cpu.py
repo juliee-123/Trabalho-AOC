@@ -10,7 +10,7 @@ class CPU:
         "R3": 0
         }
 # Memória com 16 posições
-        self.memoria = [0] * 16
+        self.memoria = [None] * 16
 # Program Counter
         self.pc = 0
 # Estado da CPU
@@ -50,6 +50,10 @@ class CPU:
             registrador=partes[1]
             endereco=int(partes[2])
             self.memoria[endereco] = self.registradores[registrador]
+            print("Dados salvos:")
+            for i, conteudo in enumerate(self.memoria):
+                if isinstance(conteudo, int):
+                    print(f"Endereço {[i]} = {conteudo}")
             self.pc += 1
 # ------------------------------------------------
 # ADD
