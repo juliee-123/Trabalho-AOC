@@ -1,4 +1,4 @@
-Simulador de CPU de 8 Bits
+## Simulador de CPU de 8 Bits
 
 <p align="center">
   <strong>Trabalho de Arquitetura de Computadores</strong><br>
@@ -30,18 +30,17 @@ O simulador trabalha com valores de 8 bits, que podem representar números de 0 
 
 ## Instruções:
 
-O programa possui instruções que permitem carregar valores, realizar operações e controlar a execução da CPU.
-
-Instrução| O que faz
-"LOAD"| Coloca um valor em um registrador.
-"STORE"| Guarda na memória o valor de um registrador.
-"ADD"| Soma os valores de dois registradores.
-"SUB"| Subtrai o valor de um registrador do outro.
-"AND"| Realiza uma operação lógica AND.
-"OR"| Realiza uma operação lógica OR.
-"XOR"| Realiza uma operação lógica XOR.
-"JMP"| Faz a execução continuar em outra posição.
-"HALT"| Encerra a execução da CPU.
+| Instrução | O que faz |
+|---|---|
+| LOAD | Coloca um valor em um registrador. |
+| STORE | Guarda na memória o valor de um registrador. |
+| ADD | Soma os valores de dois registradores. |
+| SUB | Subtrai um valor de outro. |
+| AND | Realiza uma operação lógica AND. |
+| OR | Realiza uma operação lógica OR. |
+| XOR | Realiza uma operação lógica XOR. |
+| JMP | Faz a execução continuar em outra posição. |
+| HALT | Encerra a execução da CPU. |
 
 ## Etapas da execução:
 
