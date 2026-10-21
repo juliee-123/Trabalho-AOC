@@ -111,4 +111,4 @@ O código-fonte do projeto está disponível no GitHub:
 Integrantes
 
 - Nome: Ana Júlia Vasconcelos Cruz
-- Nome: Ângela Carla Vanconcelos Silva 
+- Nome: Ângela Carla Vasconcelos Silva 
