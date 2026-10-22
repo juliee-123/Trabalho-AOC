@@ -107,6 +107,7 @@ Com esse projeto, podemos entender melhor como uma CPU executa instruções e co
 O código-fonte do projeto está disponível no GitHub:
 
 "Trabalho-AOC" (https://github.com/juliee-123/Trabalho-AOC)
+
 "Vídeo de apresentação" (https://drive.google.com/file/d/1tqY737RvGozK2TNqLiCNlpekyb4vE4uR/view?usp=sharing)
 
 Integrantes
